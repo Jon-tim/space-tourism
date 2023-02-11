@@ -17,6 +17,7 @@ module.exports = {
       },
       colors: {
         deepBlue: "#0b0d17",
+        navBg: "#0B0D17",
         lightBlue: "#d0d6f9",
         white: "#fff",
       },

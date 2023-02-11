@@ -31,22 +31,24 @@ export default function Home() {
         />
       </Head>
 
-      <main className="h-screen overflow-hidden w-full bg-cover bg-no-repeat bg-hero md:bg-hero-md xl:bg-hero-lg bg-bottom relative">
+      <main className="h-screen overflow-hidden w-full bg-cover bg-no-repeat bg-hero md:bg-hero-md xl:bg-hero-lg bg-bottom md:bg-top relative lg:bg-center ">
         <Nav />
-        <section className="flex items-center justify-end gap-20 lg:items-end lg:justify-between flex-col lg:flex-row h-full w-full pb-10 lg:px-32 ">
-          <div className=" uppercase text-center lg:text-left w-full px-[2.6rem] lg:px-0 lg:w-[400px]">
-            <p className="text-[16px] lg:text-[28px] tracking-[2.7px] lg:tracking-[4.72px] text-lightBlue">
+        <section className="flex items-center justify-end gap-20 lg:items-end lg:justify-between flex-col md:gap-36 lg:flex-row h-full w-full pb-10 md:pb-24 lg:pb-16 lg:px-28 ">
+          <div className=" uppercase text-center md:text-center lg:text-left w-full px-[2.6rem] flex flex-col items-center lg:items-start md:gap-5 lg:gap-0 lg:w-[480px]">
+            <p className="text-[16px] lg:text-[26px] tracking-[2.7px] md:text-[20px] md:tracking-[3.38px] lg:tracking-[4.72px] text-lightBlue ">
               so, you want to travel to
             </p>
-            <h1 className="leading-[100px] text-white text-[80px]">space</h1>
-            <p className=" text-[15px] lg:text-[18px]  leading-[25px] lg:leading-[32px] text-lightBlue">
+            <h1 className="leading-[100px] text-white text-[80px] md:text-[150px] lg:text-[135px] md:leading-[150px]">
+              space
+            </h1>
+            <p className=" text-[15px] lg:text-[18px]  leading-[25px] md:leading-[28px] lg:leading-[32px] text-lightBlue md:w-[440px] lg:px-0 lg:w-[400px]">
               Let’s face it; if you want to go to space, you might as well
               genuinely go to outer space and not hover kind of on the edge of
               it. Well sit back, and relax because we’ll give you a truly out of
               this world experience!
             </p>
           </div>
-          <div className="bg-white w-[150px] h-[150px] rounded-full grid place-items-center md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px]">
+          <div className="bg-white w-[150px] h-[150px] rounded-full grid place-items-center md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px] ">
             <h5 className="uppercase ">explore</h5>
           </div>
         </section>

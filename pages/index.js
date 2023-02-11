@@ -1,6 +1,6 @@
 import Head from "next/head";
-
-import Nav from "@/component/Nav";
+import Nav from "@/components/Nav";
+// import MobileNav from "@/components/MobileNav";
 
 export default function Home() {
   return (
@@ -30,15 +30,16 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className="h-screen w-full bg-cover bg-no-repeat bg-hero md:bg-hero-md xl:bg-hero-lg bg-bottom relative">
+
+      <main className="h-screen overflow-hidden w-full bg-cover bg-no-repeat bg-hero md:bg-hero-md xl:bg-hero-lg bg-bottom relative">
         <Nav />
-        <section className="flex items-center justify-end gap-8 lg:items-end lg:justify-between flex-col lg:flex-row h-full w-full pb-7 lg:px-32 lg:pb-10">
-          <div className="text-white uppercase text-center lg:text-left w-full px-10 lg:px-0 lg:w-[400px]">
-            <p className="text-[16px] lg:text-[28px] tracking-[4.72px]">
+        <section className="flex items-center justify-end gap-20 lg:items-end lg:justify-between flex-col lg:flex-row h-full w-full pb-10 lg:px-32 ">
+          <div className=" uppercase text-center lg:text-left w-full px-[2.6rem] lg:px-0 lg:w-[400px]">
+            <p className="text-[16px] lg:text-[28px] tracking-[2.7px] lg:tracking-[4.72px] text-lightBlue">
               so, you want to travel to
             </p>
-            <h1 className="text-[80px]">space</h1>
-            <p className=" text-[15px] lg:text-[18px]  leading-[25px] lg:leading-[32px]">
+            <h1 className="leading-[100px] text-white text-[80px]">space</h1>
+            <p className=" text-[15px] lg:text-[18px]  leading-[25px] lg:leading-[32px] text-lightBlue">
               Let’s face it; if you want to go to space, you might as well
               genuinely go to outer space and not hover kind of on the edge of
               it. Well sit back, and relax because we’ll give you a truly out of

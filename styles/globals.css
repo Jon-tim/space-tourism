@@ -3,41 +3,48 @@
 @tailwind utilities;
 
 @layer base {
-    h1,h2,h3,h4,h5 {
-        font-family: 'Bellefair', serif;    
-    }
-    p {
-        font-family: 'Barlow Condensed', sans-serif;
-    }
-    h1{
-        font-size: 150px;
-    }
-    h2{
-        font-size: 100px;
-    }
-    h3{
-        font-size: 56px;
-    }
-    h4{
-        font-size: 32px;
-    }
-    h5{
-        font-size: 28px;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Bellefair", serif;
+  }
+  p,
+  span,
+  a {
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  h1 {
+    font-size: 150px;
+  }
+  h2 {
+    font-size: 100px;
+  }
+  h3 {
+    font-size: 56px;
+  }
+  h4 {
+    font-size: 32px;
+  }
+  h5 {
+    font-size: 28px;
+  }
 }
 
 @layer components {
-    .sub-heading-one{
-        font-family: 'Bellefair', serif;
-        font-size: 28px;
-    }
-    .sub-heading-two, .nav-text{
-        font-family: 'Barlow Condensed', sans-serif;
-    }
-    .sub-heading-two{
-        font-size: 14px;
-    }
-    .nav-text{
-        font-size: 16px;
-    }
+  .sub-heading-one {
+    font-family: "Bellefair", serif;
+    font-size: 28px;
+  }
+  .sub-heading-two,
+  .nav-text {
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  .sub-heading-two {
+    font-size: 14px;
+  }
+  .nav-text {
+    font-size: 16px;
+  }
 }

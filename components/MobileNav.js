@@ -19,25 +19,25 @@ function MobileNav({ toggle, setToggle }) {
       />
       <aside className="flex flex-col gap-7">
         <Link
-          href=""
+          href="/"
           className="text-white font-normal uppercase tracking-[2.7px]"
         >
           <span className="font-bold mr-2">00</span> home
         </Link>
         <Link
-          href=""
+          href="/destination"
           className="text-white font-normal uppercase tracking-[2.7px]"
         >
           <span className="font-bold mr-2">01</span> destination
         </Link>
         <Link
-          href=""
+          href="/crew"
           className="text-white font-normal uppercase tracking-[2.7px]"
         >
           <span className="font-bold mr-2">02</span> crew
         </Link>
         <Link
-          href=""
+          href="/technology"
           className="text-white font-normal uppercase tracking-[2.7px]"
         >
           <span className="font-bold mr-2">03</span> technology

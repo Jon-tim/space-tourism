@@ -26,7 +26,7 @@ function Nav() {
         />
         <section className="hidden h-[96px] w-[62%] bg-white/10 md:flex items-center justify-around text-[14px] lg:w-[58%] lg:text-[16px] lg:backdrop-blur-md">
           <Link
-            href=""
+            href="/"
             className="bef relative h-full flex items-center justify-center"
           >
             <div className="relative text-white font-normal uppercase tracking-[2.7px] flex items-center">
@@ -34,28 +34,28 @@ function Nav() {
             </div>
           </Link>
           <Link
-            href=""
+            href="/destination"
             className="bef relative h-full flex items-center justify-center"
           >
             <div className="text-white font-normal uppercase tracking-[2.7px] flex items-center">
-              <span className="font-bold mr-2 hidden lg:block">00</span>{" "}
+              <span className="font-bold mr-2 hidden lg:block">01</span>{" "}
               destination
             </div>
           </Link>
           <Link
-            href=""
+            href="/crew"
             className="bef relative h-full flex items-center justify-center"
           >
             <div className=" text-white font-normal uppercase tracking-[2.7px] flex items-center">
-              <span className="font-bold mr-2 hidden lg:block">00</span> crew
+              <span className="font-bold mr-2 hidden lg:block">02</span> crew
             </div>
           </Link>
           <Link
-            href=""
+            href="/technology"
             className="bef relative h-full flex items-center justify-center"
           >
             <div className="text-white font-normal uppercase tracking-[2.7px] flex items-center">
-              <span className="font-bold mr-2 hidden lg:block">00</span>{" "}
+              <span className="font-bold mr-2 hidden lg:block">03</span>{" "}
               technology
             </div>
           </Link>

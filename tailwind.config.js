@@ -10,10 +10,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        "spin-slow": "spin 20s linear infinite",
+      },
       backgroundImage: {
         hero: "url('../public/assets/home/background-home-mobile.jpg')",
         "hero-md": "url('../public/assets/home/background-home-tablet.jpg')",
         "hero-lg": "url('../public/assets/home/background-home-desktop.jpg')",
+        destBgMobile:
+          "url('../public/assets/destination/background-destination-mobile.jpg')",
+        destBgTablet:
+          "url('../public/assets/destination/background-destination-tablet.jpg')",
+        destBgDesktop:
+          "url('../public/assets/destination/background-destination-desktop.jpg')",
       },
       colors: {
         deepBlue: "#0b0d17",

@@ -49,6 +49,22 @@
   }
 }
 
+.dest-nav::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  transition: width .3s linear;
+}
+
+.dest-nav:hover::after {
+  width: 100%;
+}
+
 /* .bef {
   @apply after:content-[''] after:absolute after:w-full after:bg-white after:bottom-0 after:h-1 after:left-0;
 } */

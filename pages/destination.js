@@ -30,10 +30,10 @@ function Destination() {
 					content="width=device-width, initial-scale=1"
 				/>
 			</Head>
-			<main className="h-screen overflow-hidden w-full bg-destBgMobile bg-no-repeat bg-cover md:bg-destBgTablet lg:bg-destBgDesktop relative flex flex-col gap-5">
+			<main className="h-full overflow-hidden w-full bg-destBgMobile bg-no-repeat bg-cover md:bg-destBgTablet lg:bg-destBgDesktop relative flex flex-col gap-5">
 				<Nav />
 				<section className="flex items-center gap-10 flex-col h-full w-full pb-10 md:pb-24 lg:pb-16 lg:px-28 lg:py-0 lg:gap-6">
-					<p className="uppercase font-bold text-white text-[1rem] lg:text-[1.5rem] tracking-[2.7px] md:mt-8 md:self-start lg:tracking-[4.72px] md:pl-8 md:text-[1.2rem] lg:w-full">
+					<p className="uppercase font-bold text-white text-[1rem] lg:text-[1.5rem] tracking-[2.7px] md:mt-5 md:self-start lg:tracking-[4.72px] md:pl-8 md:text-[1.2rem] lg:w-full">
 						<span className="text-white/50 mr-2">01</span>
 						pick your destination
 					</p>
@@ -69,7 +69,7 @@ function Destination() {
 								<h1 className="text-[56px] lg:text-[5.5rem] uppercase text-white text-center lg:text-left">
 									{destination[planetIndex].name}
 								</h1>
-								<p className="text-[15px] mx-auto w-[88%] md:w-[60%] leading-[25px] text-center text-lightBlue lg:text-left lg:mx-0 lg:text-lg lg:pr-8">
+								<p className="text-[15px] mx-auto w-[88%] md:w-[60%] lg:w-[85%] leading-[25px] text-center text-lightBlue lg:text-left lg:mx-0 lg:text-lg lg:pr-8">
 									{destination[planetIndex].description}
 								</p>
 								<hr className="h-[1px] bg-lightBlue/30 border-none my-8" />

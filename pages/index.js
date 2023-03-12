@@ -14,12 +14,11 @@ export default function Home() {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
-				{/* <link rel="icon" href="/favicon.ico" />*/}
 			</Head>
 
 			<main className="h-screen overflow-hidden w-full bg-cover bg-no-repeat bg-hero md:bg-hero-md xl:bg-hero-lg bg-bottom md:bg-top relative lg:bg-center ">
 				<Nav />
-				<section className="flex items-center justify-betwee gap-20 mt-8 lg:justify-between flex-col md:gap-36 lg:flex-row h-full w-full pb-10 md:pb-24 md:mt-20 lg:pb-16 lg:px-28">
+				<section className="flex items-center gap-20 mt-8 lg:justify-between flex-col md:gap-36 lg:flex-row h-full w-full pb-10 md:pb-24 md:mt-20 lg:mt-0 lg:pb-16 lg:px-28">
 					<div className=" uppercase text-center gap-4 md:text-center lg:text-left w-full px-[2.6rem] flex flex-col items-center lg:items-start md:gap-5 lg:gap-0 lg:w-[480px]">
 						<p className="text-[16px] lg:text-[26px] tracking-[2.7px] md:text-[20px] md:tracking-[3.38px] lg:tracking-[4.72px] text-lightBlue ">
 							so, you want to travel to

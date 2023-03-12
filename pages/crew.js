@@ -1,7 +1,6 @@
 import Nav from "@/components/Nav";
 import Head from "next/head";
 import Image from "next/image";
-// import im from "../public/assets/crew/image-anousheh-ansari.png";
 
 import { crew } from "../data/data.json";
 import { useEffect, useState } from "react";
@@ -24,22 +23,22 @@ function CrewPage() {
 			</Head>
 			<main className="h-screen overflow-hidden w-full bg-crewBgMobile bg-no-repeat bg-cover md:bg-crewBgTablet lg:bg-crewBgDesktop relative">
 				<Nav />
-				<section className="flex items-center gap-6 lg:items-end lg:justify-between flex-col md:gap-36 lg:flex-row h-full w-full pb-10 md:pb-24 lg:pb-16 lg:px-28 ">
-					<p className="uppercase font-bold text-white text-[16px] lg:text-[28px] tracking-[2.7px] lg:tracking-[4.72px]">
+				<section className="flex items-center gap-6 flex-col md:gap-36 lg:fle h-full w-full pb-10 md:pb-24 lg:pb-16 lg:px-28">
+					<p className="uppercase font-bold text-white text-[16px] md:text-[1.2rem] tracking-[2.7px] lg:tracking-[4.72px] lg:w-full">
 						<span className="text-white/50 mr-2">02</span>
 						meet your crew
 					</p>
-					<section className="px-[1.5rem] flex flex-col items-center gap-8">
-						<div className="w-[327px] h-[223px] relative">
+					<section className="px-[1.5rem] flex flex-col items-center gap-8 lg:flex-row-reverse lg:w-full lg:px-[unset]">
+						<div className="w-[327px] h-[223px] relative lg:w-1/2 flex items-center justify-center">
 							<Image
 								src={crews[crewIndex].images.png}
 								alt=""
 								fill
-								className="w- h- object-contain"
+								className="object-contain"
 							/>
 						</div>
-						<hr className="h-[1px] w-full bg-lightBlue/30 border-none" />
-						<div className="flex flex-col items-center gap-5">
+						{/* <hr className="h-[1px] w-full bg-lightBlue/30 border-none" /> */}
+						<div className="flex flex-col items-center gap-5 lg:items-start lg:flex-col-reverse lg:w-1/2">
 							<div className="dots flex gap-3">
 								{crews.map((element, index) => (
 									<div
@@ -49,14 +48,14 @@ function CrewPage() {
 									></div>
 								))}
 							</div>
-							<div className="details flex flex-col items-center">
+							<div className="details flex flex-col items-center lg:items-start">
 								<h6 className="uppercase text-white/50 text-center">
 									{crews[crewIndex].role}
 								</h6>
 								<h3 className="uppercase text-center text-[24px] text-white mb-2">
 									{crews[crewIndex].name}
 								</h3>
-								<p className="text-lightBlue text-center text-[15px] leading-[25px] w-[85%]">
+								<p className="text-lightBlue text-center text-[15px] leading-[25px] w-[85%] lg:text-left">
 									{crews[crewIndex].bio}
 								</p>
 							</div>

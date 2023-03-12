@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        "spin-slow": "spin 20s linear infinite",
+        "spin-slow": "spin 35s linear infinite",
       },
       backgroundImage: {
         hero: "url('../public/assets/home/background-home-mobile.jpg')",
@@ -23,6 +23,18 @@ module.exports = {
           "url('../public/assets/destination/background-destination-tablet.jpg')",
         destBgDesktop:
           "url('../public/assets/destination/background-destination-desktop.jpg')",
+        crewBgMobile:
+          "url('../public/assets/crew/background-crew-mobile.jpg')",
+        crewBgTablet:
+          "url('../public/assets/crew/background-crew-tablet.jpg')",
+        crewBgDesktop:
+          "url('../public/assets/crew/background-crew-desktop.jpg')",
+        technologyBgMobile:
+          "url('../public/assets/technology/background-technology-mobile.jpg')",
+        technologyBgTablet:
+          "url('../public/assets/technology/background-technology-tablet.jpg')",
+        technologyBgDesktop:
+          "url('../public/assets/technology/background-technology-desktop.jpg')",
       },
       colors: {
         deepBlue: "#0b0d17",
